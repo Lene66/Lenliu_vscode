@@ -10,7 +10,7 @@ def mouseClick(img,lr,):
             pyautogui.click(location.x/2,location.y/2,button=lr)
             break
         print('目前没有信息 10s后重试')
-        time.sleep(10)
+        time.sleep(11)
 
 def mainWork():
     i=1
